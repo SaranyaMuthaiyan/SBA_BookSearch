@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import BookCard from '../components/BookCard';
 
-const Home()
+const Home = () =>
 {
     const [books, setBooks] = useState([]);
 
