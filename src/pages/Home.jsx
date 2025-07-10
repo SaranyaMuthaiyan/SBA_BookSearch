@@ -7,7 +7,7 @@ function Home() {
 
     const [books, setBooks] = useState([]);
 const handleSearch = async (query) => {
-    const res = await axios.get(`https://www.googleapis.com/books/v1'/volumes?q=${query}`);
+    const res = await axios.get(`/api/books/v1/volumes?q=${query}`);
 setBooks(res.data.items || []);
 }
     return(
