@@ -3,8 +3,8 @@ import axios from "axios";
 import SearchBar from '../components/SearchBar';
 import BookCard from '../components/BookCard';
 
-function Home {}
-{
+function Home() {
+
     const [books, setBooks] = useState([]);
 const handleSearch = async (query) => {
     const res = await axios.get(`https://www.googleapis.com/books/v1'/volumes?q=${query}`);

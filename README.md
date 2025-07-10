@@ -4,21 +4,23 @@ A simple React App that uses the Google Books API to help users search and previ
 ##Built With
 
 1.HTML, CSS , JavaScript
-2.React(with functional components and hooks)
-3.Fetch API for asynchronous requests
-4.Hosted on Netlify
+2.React
+3.Fetch  data from API using axios 
+4.React Router
+5.Hosted on Netlify
 
 ## Project Features
 
-1.Search books by keyword, title or author
-2.Fetch book details using Google Books API
-3.Preview Links to explore book content
+1.Project is bootstrapped using 'create-react-app'
+2.'React Router ' is used for page navigation ('/' and '/about')
+3.'Axios' makes an HTTP GET request to the Google Books API based on user input.
+4.State is managed using 'useState' and side effects with 'useEffect'.
+UI is split into reusable components:
+'<SearchBar />' ==> Handles user input
+'<BookCard />' ==> Displays individual book info
+-5.Responsive design using grid layout in CSS.
 
-###Approach Taken
-1.Created reusuable components('SearchBar', 'BookCard')
-2.Used 'fetch()' for API communication
-3.Lifted state to 'Home' page for component interactions.
-4.Styled layout using basic CSS grid which can be enhanced in Future.
+
 
 #### API Reference
 (https://developers.google.com/books)
