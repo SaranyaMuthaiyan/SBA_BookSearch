@@ -23,4 +23,7 @@ UI is split into reusable components:
 
 
 #### API Reference
-(https://developers.google.com/books)
+(https://www.googleapis.com/v1/books)
+
+### Netlify
+https://booksearch-sba.netlify.app/
