@@ -16,7 +16,7 @@ A simple React App that uses the Google Books API to help users search and previ
 3.'Axios' makes an HTTP GET request to the Google Books API based on user input.
 4.State is managed using 'useState' and side effects with 'useEffect'.
 UI is split into reusable components:
-'<SearchBar />' ==> Handles user input
+'<SearchBar />' ==> Handles  the user input
 '<BookCard />' ==> Displays individual book info
 -5.Responsive design using grid layout in CSS.
 
@@ -26,4 +26,4 @@ UI is split into reusable components:
 (https://www.googleapis.com/v1/books)
 
 ### Netlify
-https://booksearch-sba.netlify.app/
+https://reactbooksearch.netlify.app/
