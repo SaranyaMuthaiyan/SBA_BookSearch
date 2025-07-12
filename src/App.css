@@ -80,3 +80,10 @@ nav a {
 h1{
     text-align: center;
 }
+
+.selected-book-details{
+    margin-top:2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background: mediumaquamarine
+}

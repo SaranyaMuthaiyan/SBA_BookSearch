@@ -1,12 +1,13 @@
 import React from 'react';
-function BookCard({ data }) {
+function BookCard({ data, onSelect }) {
    
     return(
-        <div className="book-card">
-            <img src={data.imageLinks?.thumbnail} alt={data.title} />
+        <div className="book-card" onClick={onSelect}>
             <h3>{data.title}</h3>
-            <p>{data.authors?.join(',')}</p>
-            
+            {data.imageLinks?.thumbnail && ( 
+            <img src={data.imageLinks.thumbnail} alt={data.title} />
+            )
+            }    
         </div>
     );
 }
